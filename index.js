@@ -12,8 +12,8 @@ const array = partes.split("\n");
 //}
 //fs.writeFileSync("La autopista del sur.txt", texto)
 
-for (let i = 0; i<"orden.txt".length; i + "\n");{
-    texto = texto + fs.readFileSync("Cuento/parte" + "orden.txt"[i] + ".txt", "utf-8");
+for (let i = 0; i<array.length; i + "\n");{
+    texto = texto + fs.readFileSync("Cuento/parte" + array[i] + ".txt", "utf-8") + "\n";
     console.log(texto);
 }
 fs.writeFileSync("La autopista del sur.txt", texto)
